@@ -379,7 +379,7 @@ header a.link-github {
 }
 
 #github{
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: #18191f00;
   color: rgb(255, 224, 224);
   box-shadow: 2px 2px 2px #00000000, 10px 1px 12px #00000000,
@@ -544,7 +544,7 @@ nav a {
 
 [id="about"] :first-child h2::before,
 [id="about"] :first-child h2::after {
-  content: "Хто я?";
+  content: "Обо мне";
 }
 
 [id="about"] :last-child h2::before,
@@ -620,7 +620,7 @@ blockquote::after {
 
 [id="guidelines"] h2::before,
 [id="guidelines"] h2::after {
-  content: "Приятного аппетита";
+  content: "Инструм";
 }
 
 /* === CONTRIBUTE === */
@@ -689,103 +689,6 @@ blockquote::after {
     -0.05rem 0.05rem 0.5rem hsla(var(--neon-blue), 0.2) inset,
     0.05rem -0.05rem 0.5rem hsla(var(--neon-blue), 0.2) inset,
     -0.05rem -0.05rem 0.5rem hsla(var(--neon-blue), 0.2) inset;
-}
-
-/* === FILES === */
-[id="files"] {
-  margin-top: 1.5em;
-}
-
-[id="files"] .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-[id="files"] h3 {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 0 100%;
-  flex: 1 0 100%;
-}
-
-[id="files"] a {
-  margin: 1em;
-}
-
-/* === PROFILE === */
-.profile h4::before,
-.profile h4::after {
-  content: "Currently Staged Style";
-}
-
-.profile {
-  text-align: center;
-}
-
-.profile li {
-  margin: 0;
-}
-
-.profile ul > * + * {
-  margin-top: 1em;
-}
-
-/* === STYLES === */
-[id="styles"] {
-  text-align: center;
-}
-
-[id="styles"] h2::before,
-[id="styles"] h2::after {
-  content: "Featured Styles";
-}
-
-[id="styles"] li {
-  margin: 0;
-}
-
-[id="styles"] ul > * + * {
-  margin-top: 1em;
-}
-
-/* === FOOTER === */
-.page-footer {
-  width: 100%;
-  border: 0.4rem solid hsl(var(--neon-blue));
-  padding: 1.5em;
-  margin-top: 2em;
-  background-color: hsl(var(--dark-blue));
-  -o-border-image: var(--border-image);
-  border-image: var(--border-image);
-}
-
-.page-footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0 -1em;
-}
-
-.page-footer li {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 30ch;
-  flex: 0 1 30ch;
-  margin: 1em 1em 0 1em;
-}
-
-.page-footer a {
-  margin: 0;
-  width: 100%;
 }
 
 /* === ANIMATIONS === */
